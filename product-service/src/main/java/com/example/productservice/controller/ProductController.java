@@ -33,7 +33,7 @@ public class ProductController {
 	@ResponseStatus(HttpStatus.CREATED)
 	public void createProduct(@RequestBody Product product)
 	{
-		productRepository.save(product);
+		productRepository.save(product); 
 		
 	}
 
